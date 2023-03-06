@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - HandAtack
+  - ActivationWall1
+  - ActivationWall3
+  - ActivationWall2
+  - ActivationWall4
+  - Bullet
+  - Enemy
+  - EnemyRespawnPoint1
+  - EnemyRespawnPoint2
+  - EnemyRespawnPoint3
+  - EnemyRespawnPoint4
+  - Border
+  - mlagent
+  - target
+  - isla
+  - isla1
+  - isla2
+  - isla3
+  - Meta
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05060016e9c229a429bf91ef11e90a66, type: 3}
+  m_Name: Servidor
+  m_EditorClassIdentifier: 
+  servidor: http://localhost:8080/gamificacion
+  servicios:
+  - nombre: Login
+    URL: login.php
+    parametros:
+    - usuario
+    - pass
+  - nombre: Register
+    URL: reg_usuario.php
+    parametros:
+    - usuario
+    - pass
+  - nombre: Update
+    URL: editar_usuario.php
+    parametros:
+    - usuario
+    - pass
+    - posx
+    - posy
+    - posz
+    - puntaje
+    - vida
+    - nivel
+    - asesinados
+  ocupado: 1
+  respuesta:
+    codigo: 404
+    mensaje: Error
+    respuesta: 
